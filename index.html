@@ -1,0 +1,1500 @@
+<!--
+  Template Name   : Wigui - Education | The Multi-Purpose HTML5 Blog Template
+  Author          : Wiguibillion - Desor Guishny
+  ThemeForest     : https://themeforest.net/user/desorgui
+  Contact         : wiguibillion@gmail.com
+  Created         : June 5th 2021
+  License         : You must have a valid license purchased only from themeforest(the above link) in order to legally use the theme for your project.
+-->
+<!DOCTYPE html>
+<html lang="zxx">
+<!-- :: Head -->
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="author" content="Wiguibillion - Desor Guishny" />
+	<meta name="description" content="Here is a precise description of my awesome webpage." />
+	<meta name="theme-color" content="#2196f3" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	<meta name="keywords" content="wigui, education, beauty, blog, personal, news, creative, clean, technology, multipurpose, product, product launch, responsive, software, startup" />
+		<link rel="icon" type="image/png" href="img/logo2.png" />
+
+		<!--:: CSS Files -->
+		<link rel="stylesheet" href="./assets/css/lib/swiper.min.css" />
+		<link rel="stylesheet" href="fontawesome/css/all.css" type="text/css" />
+		<link rel="stylesheet" href="./assets/css/lib/bootstrap.css" />
+		<link rel="stylesheet" href="./assets/css/lib/font-awesome.min.css" />
+		<link
+			rel="stylesheet"
+			href="./assets/css/theme/style.css"
+			type="text/css"
+		/>
+		<link rel="stylesheet" href="./assets/css/theme/education.css" />
+		<link rel="stylesheet" href="./assets/css/theme/dark.css" type="text/css" />
+		<title>Education</title>
+	</head>
+	<body>
+		<div class="topHeader">
+			<!-- :: Navbar -->
+			<nav class="th-nav-st1">
+				<div class="container">
+					<!-- nav content -->
+					<div
+						class="
+							nav-content
+							d-flex
+							align-items-center
+							justify-content-between
+						"
+					>
+						<!-- brand -->
+						<a href="index.html" class="brand">
+							<img
+								src="img/logo2.png"
+								class="img-fluid"
+								alt="logo"
+								loading="lazy"
+								decoding="async"
+							/>
+							Wigui
+						</a>
+
+						<!-- Search -->
+						<div class="search_container" id="search_containerId">
+							<div class="searchBox">
+								<input type="checkbox" class="searchCheck" id="searchCheck" />
+								<input
+									class="searchInput"
+									type="text"
+									name="search"
+									placeholder="Search"
+								/>
+								<button class="searchButton">
+									<i class="fa fa-search"></i>
+								</button>
+							</div>
+						</div>
+						<!-- togle dark/light-->
+						<a href="javascript:void(0);" class="sun">
+							<i class="fas fa-sun"></i>
+						</a>
+						<a href="javascript:void(0);" class="moon">
+							<i class="fas fa-moon"></i>
+						</a>
+						<div class="toggle">
+							<input type="checkbox" class="checkbox" id="chk" />
+							<div class="label">
+								<i class="fas fa-moon"></i>
+								<i class="fas fa-sun"></i>
+								<div class="ball" onClick="too()"></div>
+							</div>
+						</div>
+						<!-- links -->
+
+						<ul
+							class="
+								nav-links
+								list-unstyled
+								d-lg-flex
+								align-items-center
+								justify-content-end
+								mb-0
+							"
+						>
+							<!-- nav item has dropdown -->
+							<li class="th-nav-item position-relative">
+								<a
+									href="index.html"
+									class="
+										position-relative
+										d-flex
+										align-items-center
+										justify-content-lg-center justify-content-between
+										text-capitalize
+									"
+									>home</a
+								>
+								
+							</li>
+
+							<!-- nav item has dropdown -->
+							<li class="th-nav-item has-dropdown position-relative">
+								<a
+									href="#"
+									onclick="return false;"
+									class="
+										position-relative
+										d-flex
+										align-items-center
+										justify-content-lg-center justify-content-between
+										text-capitalize
+									"
+									>pages</a
+								>
+								<!-- dropdown list -->
+								<ul class="th-dropdown-list list-unstyled mb-0">
+									<!-- dropdown Item -->
+									<li class="th-dropdown-item">
+										<a
+											href="author.html"
+											class="
+												position-relative
+												d-flex
+												align-items-center
+												justify-content-between
+												text-capitalize
+											"
+											>Author</a
+										>
+									</li>
+									<!-- dropdown Item -->
+									<li class="th-dropdown-item">
+										<a
+											href="category.html"
+											class="
+												position-relative
+												d-flex
+												align-items-center
+												justify-content-between
+												text-capitalize
+											"
+											>Category</a
+										>
+									</li>
+									
+									<!-- dropdown Item -->
+									<li class="th-dropdown-item">
+										<a
+											href="single.html"
+											class="
+												position-relative
+												d-flex
+												align-items-center
+												justify-content-between
+												text-capitalize
+											"
+											>Single</a
+										>
+									</li>
+								</ul>
+							</li>
+
+							<!-- nav item -->
+							<li class="th-nav-item position-relative">
+								<a
+									href="#"
+									onclick="return false;"
+									class="
+										position-relative
+										d-flex
+										align-items-center
+										justify-content-lg-center justify-content-between
+										text-capitalize
+									"
+									>About Us</a
+								>
+							</li>
+						</ul>
+
+						<!-- toggler Menu-->
+						<button class="nav-toggler d-lg-none d-block" id="nav_toggler">
+							<span class="d-block w-100"></span>
+							<span class="d-block w-100"></span>
+							<span class="d-block w-100"></span>
+						</button>
+					</div>
+				</div>
+			</nav>
+			<!--Search max width 991px-->
+			<div class="search">
+				<input
+					class="searchInput2"
+					type="text"
+					name="Search2"
+					placeholder="Search"
+				/>
+				<button class="searchButton2">
+					<i class="fa fa-search"></i>
+				</button>
+			</div>
+		</div>
+
+		<div class="body_content">
+			<!--Header Banner Begin-->
+			<div class="banner">
+				<div class="banner_card">
+					<!--Banner text Content -->
+					<div class="content">
+						<h2>Learn something new On this site</h2>
+						<p>
+							“When you really learn, you learn throughout your life, without
+							being a pupil of any Master in particular."
+						</p>
+						<div class="text-3">You can learn <span class="type"></span></div>
+						<a href="#">Read More</a>
+						<a href="#">Start Now</a>
+					</div>
+
+					<!--Banner Image-->
+					<div class="imgbx">
+						<img
+							src="img/img.png"
+							loading="lazy"
+							decoding="async"
+							alt="illustration_image"
+						/>
+					</div>
+				</div>
+			</div>
+			<!--Header Banner End-->
+
+			<!--Texto Container-->
+			<div id="texto" class="texto">
+				<!--Single Post Container-->
+				<div class="text-container">
+					<i class="icon-mobile"></i>
+					<h2 class="title">
+						<a href="single.html">Compatible with any screen</a>
+					</h2>
+					<div class="content">
+						<p>
+							Lorem Ipsum is simply dummy text of the printing and typesetting
+							industry.dummy text of the printing and typesetting industry.Lorem
+							Ipsum is simply dummy text of the printing and typesetting
+							industry.
+						</p>
+					</div>
+					<div class="readmore">
+						<a href="single.html">Read More</a>
+					</div>
+				</div>
+
+				<!--Single Post Container-->
+				<div class="text-container">
+					<i class="icon-tablet"></i>
+					<h2 class="title">
+						<a href="single.html">Tablet compatibility verified</a>
+					</h2>
+					<div class="content">
+						<p>
+							Lorem Ipsum is simply dummy text of the printing and typesetting
+							industry.dummy text of the printing and typesetting industry.Lorem
+							Ipsum is simply dummy text of the printing and typesetting
+							industry.
+						</p>
+					</div>
+					<div class="readmore">
+						<a href="single.html">Read More</a>
+					</div>
+				</div>
+
+				<!--Single Post Container-->
+				<div class="text-container">
+					<i class="icon-laptop"></i>
+					<h2 class="title"><a href="single.html">Pc animation Perfect</a></h2>
+					<div class="content">
+						<p>
+							Lorem Ipsum is simply dummy text of the printing and typesetting
+							industry.dummy text of the printing and typesetting industry.Lorem
+							Ipsum is simply dummy text of the printing and typesetting
+							industry.
+						</p>
+					</div>
+					<div class="readmore">
+						<a href="single.html">Read More</a>
+					</div>
+				</div>
+			</div>
+
+			<!--Programmation Section start -->
+
+			<div class="post-byCategory">
+				<!--Widget Top Start-->
+				<div class="widget_top">
+					<h4><a href="category.html"> Programming</a></h4>
+					<div class="strip_line"></div>
+				</div>
+				<!--Widget Top End-->
+				<div class="section_container">
+					<div class="left_container">
+						<!--Horizontal medium Post start-->
+						<div class="Horizontal_medium_post post_hover_display">
+							<!--Horizontal medium Post Image-->
+							<div class="image">
+								<img
+									decoding="async"
+									src="education_img/programming/learning.jpg"
+									alt="Image text reference"
+									loading="lazy"
+								/>
+
+								<!--Info to display on hover-->
+								<div class="gradient"></div>
+								<div class="info">
+									<!--Avatar Post Author-->
+									<div class="avatar1">
+										<a href="author.html"
+											><img
+												loading="lazy"
+												decoding="async"
+												src="Author_img/1.jpg"
+												alt="Image text reference"
+										/></a>
+									</div>
+									<!--Post Author name and meta data-->
+									<div class="post_card_info1">
+										<a href="author.html"
+											><div class="author">Wigui Doe</div></a
+										>
+										<p class="post-meta">
+											<span class="tie-date">
+												<i class="fa fa-clock-o" aria-hidden="true"></i>
+												January 28, 2021
+											</span>
+											<span class="post-views">
+												<i class="fa fa-eye" aria-hidden="true"></i>28
+											</span>
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="text">
+								<h3>
+									<!--Post Title-->
+									<a href="single.html"
+										>What languages are used for Web Programming?</a
+									>
+								</h3>
+								<!--Short text description-->
+								<p>
+									Lorem Ipsum is simply dummy text of the printing and
+									typesetting industry.dummy text of the printing and
+									typesetting industry.
+								</p>
+								<!--Readmore Link-->
+								<a href="#" class="readmore_link">Read more</a>
+							</div>
+						</div>
+						<div class="leftDown_container">
+							<div class="vertical_small_post post_hover_display">
+								<div class="image">
+									<img
+										decoding="async"
+										src="education_img/programming/programming(4).jpg"
+										alt="Image text reference"
+										loading="lazy"
+									/>
+									<div class="gradient"></div>
+									<div class="info">
+										<div class="avatar1">
+											<a href="author.html"
+												><img
+													loading="lazy"
+													decoding="async"
+													src="Author_img/1.jpg"
+													alt="Image text reference"
+											/></a>
+										</div>
+										<div class="post_card_info1">
+											<a href="author.html"
+												><div class="author">Wigui Doe</div></a
+											>
+											<p class="post-meta">
+												<span class="tie-date">
+													<i class="fa fa-clock-o" aria-hidden="true"></i>
+													January 28, 2021
+												</span>
+												<span class="post-views">
+													<i class="fa fa-eye" aria-hidden="true"></i>28
+												</span>
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="text">
+									<h3>
+										<a href="single.html"
+											>How to become a web developer in 2021 [Complete guide]</a
+										>
+									</h3>
+									<p>
+										Lorem Ipsum is simply dummy text of the printing and
+										typesetting industry.
+									</p>
+									<!--Readmore Link-->
+									<a href="#" class="readmore_link">Read more</a>
+								</div>
+							</div>
+							<div class="vertical_small_post post_hover_display">
+								<div class="image">
+									<img
+										decoding="async"
+										src="education_img/programming/head.jpg"
+										alt="Image text reference"
+										loading="lazy"
+									/>
+									<div class="gradient"></div>
+									<div class="info">
+										<div class="avatar1">
+											<a href="author.html"
+												><img
+													loading="lazy"
+													decoding="async"
+													src="Author_img/1.jpg"
+													alt="Image text reference"
+											/></a>
+										</div>
+										<div class="post_card_info1">
+											<a href="author.html"
+												><div class="author">Wigui Doe</div></a
+											>
+											<p class="post-meta">
+												<span class="tie-date">
+													<i class="fa fa-clock-o" aria-hidden="true"></i>
+													January 28, 2021
+												</span>
+												<span class="post-views">
+													<i class="fa fa-eye" aria-hidden="true"></i>28
+												</span>
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="text">
+									<h3>
+										<a href="single.html">Your brand programming must be top</a>
+									</h3>
+									<p>
+										Lorem Ipsum is simply dummy text of the printing and
+										typesetting industry.
+									</p>
+									<!--Readmore Link-->
+									<a href="#" class="readmore_link">Read more</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="right_container">
+						<!--Horizontal small Post start-->
+						<div class="Horizontal_small_post">
+							<div class="text">
+								<h6>
+									<a href="single.html"
+										>What languages should i learn to become a pro in web
+										devlopment?</a
+									>
+								</h6>
+							</div>
+							<p class="post-meta">
+								<span class="tie-date">
+									<i class="fa fa-clock-o" aria-hidden="true"></i>
+									January 28, 2021
+								</span>
+								<span class="post-views">
+									<i class="fa fa-eye" aria-hidden="true"></i>28
+								</span>
+							</p>
+						</div>
+						<!--Horizontal small Post end-->
+
+						<!--vertical medium Post start-->
+						<div class="vertical_medium_post post_hover_display">
+							<div class="image">
+								<img
+									decoding="async"
+									src="education_img/programming/Programmer.jpg"
+									alt="Image text reference"
+									loading="lazy"
+								/>
+								<div class="gradient"></div>
+								<div class="info">
+									<!--Avatar Post Author-->
+									<div class="avatar1">
+										<a href="author.html"
+											><img
+												loading="lazy"
+												decoding="async"
+												src="Author_img/1.jpg"
+												alt="Image text reference"
+										/></a>
+									</div>
+									<!--Post Author name and meta data-->
+									<div class="post_card_info1">
+										<a href="author.html"
+											><div class="author">Wigui Doe</div></a
+										>
+										<p class="post-meta">
+											<span class="tie-date">
+												<i class="fa fa-clock-o" aria-hidden="true"></i>
+												January 28, 2021
+											</span>
+											<span class="post-views">
+												<i class="fa fa-eye" aria-hidden="true"></i>28
+											</span>
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="text">
+								<h3>
+									<!--Post Title-->
+									<a href="single.html"
+										>Take opportunities on the world wide web</a
+									>
+								</h3>
+								<!--Short text description-->
+								<p>
+									Lorem Ipsum is simply dummy text of the printing and
+									typesetting industry.Lorem Ipsum is simplyand typesetting
+									industry.Lorem Ipsum is simply
+								</p>
+								<!--Readmore Link-->
+								<a href="#" class="readmore_link">Read more</a>
+							</div>
+						</div>
+						<!--vertical medium Post end-->
+
+						<!--Horizontal small Post start-->
+						<div class="Horizontal_small_post">
+							<div class="text">
+								<h6>
+									<a href="single.html"
+										>What can i do with a web design degree in 2021
+									</a>
+								</h6>
+							</div>
+							<p class="post-meta">
+								<span class="tie-date">
+									<i class="fa fa-clock-o" aria-hidden="true"></i>
+									January 28, 2021
+								</span>
+								<span class="post-views">
+									<i class="fa fa-eye" aria-hidden="true"></i>28
+								</span>
+							</p>
+						</div>
+						<!--Horizontal small Post end-->
+					</div>
+				</div>
+			</div>
+			<!--Programmation Section end-->
+
+			<!--Design section Start-->
+			<div class="post-byCategory">
+				<!--Widget Top Start-->
+				<div class="widget_top">
+					<h4><a href="category.html">Design</a></h4>
+					<div class="strip_line"></div>
+				</div>
+				<!--Widget Top End-->
+				<div class="post_cards">
+					<!--Post_card Begin-->
+					<div class="post_card">
+						<!--Post_card Image Container-->
+						<div class="post_card_img">
+							<img
+								loading="lazy"
+								decoding="async"
+								src="education_img/design/photoshop.jpg"
+								alt="Image text reference"
+								class="post_img"
+							/>
+							<!--Cover Link-->
+							<a class="cover-link" href="single.html"
+								><span class="visually-hidden"></span
+							></a>
+						</div>
+						<div>
+							<!--Author Info and Post Title-->
+							<div class="avatar">
+								<a href="author.html"
+									><img
+										loading="lazy"
+										decoding="async"
+										src="Author_img/1.jpg"
+										alt="Image text reference"
+								/></a>
+							</div>
+							<div class="post_card_info">
+								<!--Post Title-->
+								<h6 class="post_title">
+									<a href="single.html">How to get started in web design?</a>
+								</h6>
+								<div class="author"><a href="author.html">Wigui Doe</a></div>
+							</div>
+						</div>
+					</div>
+					<!--Post_card Begin-->
+					<div class="post_card">
+						<!--Post_card Image Container-->
+						<div class="post_card_img">
+							<img
+								loading="lazy"
+								decoding="async"
+								src="education_img/design/colorfull.jpg"
+								alt="Image text reference"
+								class="post_img"
+							/>
+							<!--Cover Link-->
+							<a class="cover-link" href="single.html"
+								><span class="visually-hidden"></span
+							></a>
+						</div>
+						<div>
+							<!--Author Info and Post Title-->
+							<div class="avatar">
+								<a href="author.html"
+									><img
+										loading="lazy"
+										decoding="async"
+										src="Author_img/1.jpg"
+										alt="Image text reference"
+								/></a>
+							</div>
+							<div class="post_card_info">
+								<!--Post Title-->
+								<h6 class="post_title">
+									<a href="single.html">Eye-catching design art</a>
+								</h6>
+								<div class="author"><a href="author.html">Wigui Doe</a></div>
+							</div>
+						</div>
+					</div>
+					<!--Post_card Begin-->
+					<div class="post_card">
+						<!--Post_card Image Container-->
+						<div class="post_card_img">
+							<img
+								loading="lazy"
+								decoding="async"
+								src="education_img/design/illusion.jpg"
+								alt="Image text reference"
+								class="post_img"
+							/>
+							<!--Cover Link-->
+							<a class="cover-link" href="single.html"
+								><span class="visually-hidden"></span
+							></a>
+						</div>
+						<div>
+							<!--Author Info and Post Title-->
+							<div class="avatar">
+								<a href="author.html"
+									><img
+										loading="lazy"
+										decoding="async"
+										src="Author_img/1.jpg"
+										alt="Image text reference"
+								/></a>
+							</div>
+							<div class="post_card_info">
+								<!--Post Title-->
+								<h6 class="post_title">
+									<a href="single.html"
+										>Design somethings that make you dazzle</a
+									>
+								</h6>
+								<div class="author"><a href="author.html">Wigui Doe</a></div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="post_cards">
+					<!--Post_card Begin-->
+					<div class="post_card">
+						<!--Post_card Image Container-->
+						<div class="post_card_img">
+							<img
+								loading="lazy"
+								decoding="async"
+								src="education_img/design/base.jpg"
+								alt="Image text reference"
+								class="post_img"
+							/>
+							<!--Cover Link-->
+							<a class="cover-link" href="single.html"
+								><span class="visually-hidden"></span
+							></a>
+						</div>
+						<div>
+							<!--Author Info and Post Title-->
+							<div class="avatar">
+								<a href="author.html"
+									><img
+										loading="lazy"
+										decoding="async"
+										src="Author_img/1.jpg"
+										alt="Image text reference"
+								/></a>
+							</div>
+							<div class="post_card_info">
+								<!--Post Title-->
+								<h6 class="post_title">
+									<a href="single.html"
+										>the different ridges that make up the design</a
+									>
+								</h6>
+								<div class="author"><a href="author.html">Wigui Doe</a></div>
+							</div>
+						</div>
+					</div>
+					<!--Post_card Begin-->
+					<div class="post_card">
+						<!--Post_card Image Container-->
+						<div class="post_card_img">
+							<img
+								loading="lazy"
+								decoding="async"
+								src="education_img/design/reflexion.jpg"
+								alt="Image text reference"
+								class="post_img"
+							/>
+							<!--Cover Link-->
+							<a class="cover-link" href="single.html"
+								><span class="visually-hidden"></span
+							></a>
+						</div>
+						<div>
+							<!--Author Info and Post Title-->
+							<div class="avatar">
+								<a href="author.html"
+									><img
+										loading="lazy"
+										decoding="async"
+										src="Author_img/1.jpg"
+										alt="Image text reference"
+								/></a>
+							</div>
+							<div class="post_card_info">
+								<!--Post Title-->
+								<h6 class="post_title">
+									<a href="single.html"
+										>Photoshop a tool that makes design easier in 2021</a
+									>
+								</h6>
+								<div class="author"><a href="author.html">Wigui Doe</a></div>
+							</div>
+						</div>
+					</div>
+					<!--Post_card Begin-->
+					<div class="post_card">
+						<!--Post_card Image Container-->
+						<div class="post_card_img">
+							<img
+								src="education_img/design/spectacular.jpg"
+								alt="Image text reference"
+								class="post_img"
+							/>
+							<!--Cover Link-->
+							<a class="cover-link" href="single.html"
+								><span class="visually-hidden"></span
+							></a>
+						</div>
+						<div>
+							<!--Author Info and Post Title-->
+							<div class="avatar">
+								<a href="author.html"
+									><img
+										loading="lazy"
+										decoding="async"
+										src="Author_img/1.jpg"
+										alt="Image text reference"
+								/></a>
+							</div>
+							<div class="post_card_info">
+								<!--Post Title-->
+								<h6 class="post_title">
+									<a href="single.html">Be creative on your design</a>
+								</h6>
+								<div class="author"><a href="author.html">Wigui Doe</a></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--Design section End-->
+
+			<!--Sectionnetwork begin -->
+			<div class="post-byCategory">
+				<!--Widget Top Start-->
+				<div class="widget_top">
+					<h4><a href="category.html">Network</a></h4>
+					<div class="strip_line"></div>
+				</div>
+				<!--Widget Top End-->
+				<div class="section_container">
+					<div class="left_container">
+						<div class="Horizontal_medium_post post_hover_display">
+							<div class="image">
+								<img
+									decoding="async"
+									src="education_img/network/connection.jpg"
+									alt="Image text reference"
+									loading="lazy"
+								/>
+								<div class="gradient"></div>
+								<div class="info">
+									<!--Avatar Post Author-->
+									<div class="avatar1">
+										<a href="author.html"
+											><img
+												loading="lazy"
+												decoding="async"
+												src="Author_img/1.jpg"
+												alt="Image text reference"
+										/></a>
+									</div>
+									<!--Post Author name and meta data-->
+									<div class="post_card_info1">
+										<a href="author.html"
+											><div class="author">Wigui Doe</div></a
+										>
+										<p class="post-meta">
+											<span class="tie-date">
+												<i class="fa fa-clock-o" aria-hidden="true"></i>
+												January 28, 2021
+											</span>
+
+											<span class="post-views">
+												<i class="fa fa-eye" aria-hidden="true"></i>28
+											</span>
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="text">
+								<h3>
+									<!--Post Title-->
+									<a href="single.html"
+										>The Connection network: What you need to know?</a
+									>
+								</h3>
+								<!--Short text description-->
+								<p>
+									Lorem Ipsum is simply dummy text of the printing and
+									typesetting industry.
+								</p>
+								<!--Readmore Link-->
+								<a href="#" class="readmore_link">Read more</a>
+							</div>
+						</div>
+						<div class="leftDown_container">
+							<div class="vertical_small_post post_hover_display">
+								<div class="image">
+									<img
+										decoding="async"
+										src="education_img/network/super_network.jpg"
+										alt="Image text reference"
+										loading="lazy"
+									/>
+									<div class="gradient"></div>
+									<div class="info">
+										<div class="avatar1">
+											<a href="author.html"
+												><img
+													loading="lazy"
+													decoding="async"
+													src="Author_img/1.jpg"
+													alt="Image text reference"
+											/></a>
+										</div>
+										<div class="post_card_info1">
+											<a href="author.html"
+												><div class="author">Wigui Doe</div></a
+											>
+											<p class="post-meta">
+												<span class="tie-date">
+													<i class="fa fa-clock-o" aria-hidden="true"></i>
+													January 28, 2021
+												</span>
+												<span class="post-views">
+													<i class="fa fa-eye" aria-hidden="true"></i>28
+												</span>
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="text">
+									<h3>
+										<a href="single.html"
+											>How to apply for Data Analyst - Super Network</a
+										>
+									</h3>
+									<p>
+										Lorem Ipsum is simply dummy text of the printing and
+										typesetting industry.
+									</p>
+									<!--Readmore Link-->
+									<a href="#" class="readmore_link">Read more</a>
+								</div>
+							</div>
+							<div class="vertical_small_post post_hover_display">
+								<div class="image">
+									<img
+										decoding="async"
+										src="education_img/network/Antenna.jpg"
+										alt="Image text reference"
+										loading="lazy"
+									/>
+									<div class="gradient"></div>
+									<div class="info">
+										<div class="avatar1">
+											<a href="author.html"
+												><img
+													loading="lazy"
+													decoding="async"
+													src="Author_img/1.jpg"
+													alt="Image text reference"
+											/></a>
+										</div>
+										<div class="post_card_info1">
+											<a href="author.html"
+												><div class="author">Wigui Doe</div></a
+											>
+											<p class="post-meta">
+												<span class="tie-date">
+													<i class="fa fa-clock-o" aria-hidden="true"></i>
+													January 28, 2021
+												</span>
+												<span class="post-views">
+													<i class="fa fa-eye" aria-hidden="true"></i>28
+												</span>
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="text">
+									<h3>
+										<a href="single.html"
+											>Advanced Antenna Systems for 5G Network Deployment</a
+										>
+									</h3>
+									<p>
+										Lorem Ipsum is simply dummy text of the printing and
+										typesetting industry.
+									</p>
+									<!--Readmore Link-->
+									<a href="#" class="readmore_link">Read more</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="right_container">
+						<div class="Horizontal_small_post">
+							<div class="text">
+								<h6>
+									<a href="single.html"
+										>The Connection network is necessary we must do it</a
+									>
+								</h6>
+							</div>
+							<p class="post-meta">
+								<span class="tie-date">
+									<i class="fa fa-clock-o" aria-hidden="true"></i>
+									January 28, 2021
+								</span>
+								<span class="post-views">
+									<i class="fa fa-eye" aria-hidden="true"></i>28
+								</span>
+							</p>
+						</div>
+						<div class="vertical_medium_post post_hover_display">
+							<div class="image">
+								<img
+									decoding="async"
+									src="education_img/network/modem.jpg"
+									alt="Image text reference"
+									loading="lazy"
+								/>
+								<div class="gradient"></div>
+								<div class="info">
+									<!--Avatar Post Author-->
+									<div class="avatar1">
+										<a href="author.html"
+											><img
+												loading="lazy"
+												decoding="async"
+												src="Author_img/1.jpg"
+												alt="Image text reference"
+										/></a>
+									</div>
+									<!--Post Author name and meta data-->
+									<div class="post_card_info1">
+										<a href="author.html"
+											><div class="author">Wigui Doe</div></a
+										>
+										<p class="post-meta">
+											<span class="tie-date">
+												<i class="fa fa-clock-o" aria-hidden="true"></i>
+												January 28, 2021
+											</span>
+											<span class="post-views">
+												<i class="fa fa-eye" aria-hidden="true"></i>28
+											</span>
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="text">
+								<h3>
+									<!--Post Title-->
+									<a href="single.html"
+										>The fundamentals of Wi-Fi Antennas: Some technic you need
+										to know</a
+									>
+								</h3>
+								<!--Short text description-->
+								<p>
+									Lorem Ipsum is simply dummy text of the printing and
+									typesetting industry.Lorem Ipsum is simplyand typesetting
+									industry.Lorem Ipsum is simply
+								</p>
+								<!--Readmore Link-->
+								<a href="#" class="readmore_link">Read more</a>
+							</div>
+						</div>
+						<div class="Horizontal_small_post">
+							<div class="text">
+								<h6>
+									<a href="single.html"
+										>Computer Network Advantages and Disavantages Comparison</a
+									>
+								</h6>
+							</div>
+							<p class="post-meta">
+								<span class="tie-date">
+									<i class="fa fa-clock-o" aria-hidden="true"></i>
+									January 28, 2021
+								</span>
+								<span class="post-views">
+									<i class="fa fa-eye" aria-hidden="true"></i>28
+								</span>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--Section for network end -->
+
+			<!--Troubleshooting Section Start -->
+			<div class="post-byCategory">
+				<!--Widget Top Start-->
+				<div class="widget_top">
+					<h4><a href="category.html">Troubleshooting</a></h4>
+					<div class="strip_line"></div>
+				</div>
+				<!--Widget Top End-->
+				<div class="post_cards">
+					<!--Post_card Begin-->
+					<div class="post_card">
+						<!--Post_card Image Container-->
+						<div class="post_card_img">
+							<img
+								src="education_img/computer_troubleshooting/Materials.jpg"
+								alt="Image text reference"
+								class="post_img"
+							/>
+							<!--Cover Link-->
+							<a class="cover-link" href="single.html"
+								><span class="visually-hidden"></span
+							></a>
+						</div>
+						<div>
+							<!--Author Info and Post Title-->
+							<div class="avatar">
+								<a href="author.html"
+									><img
+										loading="lazy"
+										decoding="async"
+										src="Author_img/1.jpg"
+										alt="Image text reference"
+								/></a>
+							</div>
+							<div class="post_card_info">
+								<!--Post Title-->
+								<h6 class="post_title">
+									<a href="single.html">Basic computer troubleshooting steps</a>
+								</h6>
+								<div class="author"><a href="author.html">Wigui Doe</a></div>
+							</div>
+						</div>
+					</div>
+					<!--Post_card Begin-->
+					<div class="post_card">
+						<!--Post_card Image Container-->
+						<div class="post_card_img">
+							<img
+								src="education_img/computer_troubleshooting/Hdd.jpg"
+								alt="Image text reference"
+								class="post_img"
+							/>
+							<!--Cover Link-->
+							<a class="cover-link" href="single.html"
+								><span class="visually-hidden"></span
+							></a>
+						</div>
+						<div>
+							<!--Author Info and Post Title-->
+							<div class="avatar">
+								<a href="author.html"
+									><img
+										loading="lazy"
+										decoding="async"
+										src="Author_img/1.jpg"
+										alt="Image text reference"
+								/></a>
+							</div>
+							<div class="post_card_info">
+								<!--Post Title-->
+								<h6 class="post_title">
+									<a href="single.html"
+										>Fix Errors and troubleshoot Hard Disk</a
+									>
+								</h6>
+								<div class="author"><a href="author.html">Wigui Doe</a></div>
+							</div>
+						</div>
+					</div>
+					<!--Post_card Begin-->
+					<div class="post_card">
+						<!--Post_card Image Container-->
+						<div class="post_card_img">
+							<img
+								src="education_img/computer_troubleshooting/desk.jpg"
+								alt="Image text reference"
+								class="post_img"
+							/>
+							<!--Cover Link-->
+							<a class="cover-link" href="single.html"
+								><span class="visually-hidden"></span
+							></a>
+						</div>
+						<div>
+							<!--Author Info and Post Title-->
+							<div class="avatar">
+								<a href="author.html"
+									><img
+										loading="lazy"
+										decoding="async"
+										src="Author_img/1.jpg"
+										alt="Image text reference"
+								/></a>
+							</div>
+							<div class="post_card_info">
+								<!--Post Title-->
+								<h6 class="post_title">
+									<a href="single.html"
+										>The value of a motherboard of a computer</a
+									>
+								</h6>
+								<div class="author"><a href="author.html">Wigui Doe</a></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="post_cards">
+					<!--Post_card Begin-->
+					<div class="post_card">
+						<!--Post_card Image Container-->
+						<div class="post_card_img">
+							<img
+								src="education_img/computer_troubleshooting/hdd_connection.jpg"
+								alt="Image text reference"
+								class="post_img"
+							/>
+							<!--Cover Link-->
+							<a class="cover-link" href="single.html"
+								><span class="visually-hidden"></span
+							></a>
+						</div>
+						<div>
+							<!--Author Info and Post Title-->
+							<div class="avatar">
+								<a href="author.html"
+									><img
+										loading="lazy"
+										decoding="async"
+										src="Author_img/1.jpg"
+										alt="Image text reference"
+								/></a>
+							</div>
+							<div class="post_card_info">
+								<!--Post Title-->
+								<h6 class="post_title">
+									<a href="single.html"
+										>How to connect a hard Drive into your pc</a
+									>
+								</h6>
+								<div class="author"><a href="author.html">Wigui Doe</a></div>
+							</div>
+						</div>
+					</div>
+					<!--Post_card Begin-->
+					<div class="post_card">
+						<!--Post_card Image Container-->
+						<div class="post_card_img">
+							<img
+								src="education_img/computer_troubleshooting/motherboard.jpg"
+								alt="Image text reference"
+								class="post_img"
+							/>
+							<!--Cover Link-->
+							<a class="cover-link" href="single.html"
+								><span class="visually-hidden"></span
+							></a>
+						</div>
+						<div>
+							<!--Author Info and Post Title-->
+							<div class="avatar">
+								<a href="author.html"
+									><img
+										loading="lazy"
+										decoding="async"
+										src="Author_img/1.jpg"
+										alt="Image text reference"
+								/></a>
+							</div>
+							<div class="post_card_info">
+								<!--Post Title-->
+								<h6 class="post_title">
+									<a href="single.html"
+										>16 types of Computer Ports and their Function</a
+									>
+								</h6>
+								<div class="author"><a href="author.html">Wigui Doe</a></div>
+							</div>
+						</div>
+					</div>
+					<!--Post_card Begin-->
+					<div class="post_card">
+						<!--Post_card Image Container-->
+						<div class="post_card_img">
+							<img
+								loading="lazy"
+								decoding="async"
+								src="education_img/computer_troubleshooting/repair.jpg"
+								alt="Image text reference"
+								class="post_img"
+							/>
+							<!--Cover Link-->
+							<a class="cover-link" href="single.html"
+								><span class="visually-hidden"></span
+							></a>
+						</div>
+						<div>
+							<!--Author Info and Post Title-->
+							<div class="avatar">
+								<a href="author.html"
+									><img
+										loading="lazy"
+										decoding="async"
+										src="Author_img/1.jpg"
+										alt="Image text reference"
+								/></a>
+							</div>
+							<div class="post_card_info">
+								<!--Post Title-->
+								<h6 class="post_title">
+									<a href="single.html"
+										>Hadware troubleshooting tools that you need</a
+									>
+								</h6>
+								<div class="author"><a href="author.html">Wigui Doe</a></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--Troubleshooting Section End -->
+
+			<div class="testimonial">
+				<h1>TESTIMONIAL</h1>
+
+				<p class="p">
+					Lorem Ipsum is simply dummy text of the printing and typesetting
+					industry.dummy text of the printing and typesetting industry
+				</p>
+				<!-- :: Swiper -->
+				<div class="swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="text">
+								<i class="fas fa-quote-left"></i>
+								<div>
+									<p>
+										Lorem Ipsum is simply dummy text of the printing and
+										typesetting industry.Lorem Ipsum is simplyand typesetting
+										industry.Lorem Ipsum is simplyLorem
+									</p>
+								</div>
+								<div class="detail">
+									<div class="imgBx">
+										<a href="author.html"
+											><img
+												loading="lazy"
+												decoding="async"
+												src="Author_img/1.jpg"
+												alt="Image text reference"
+										/></a>
+									</div>
+									<h3>Someone Famous</h3>
+									<span>Creative Designer</span>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="text">
+								<i class="fas fa-quote-left"></i>
+								<div>
+									<p>
+										Lorem Ipsum is simply dummy text of the printing and
+										typesetting industry.Lorem Ipsum is simplyand typesetting
+										industry.Lorem Ipsum is simplyLorem
+									</p>
+								</div>
+								<div class="detail">
+									<div class="imgBx">
+										<img
+											loading="lazy"
+											decoding="async"
+											src="Author_img/3.jpg"
+											alt="Image text reference"
+										/>
+									</div>
+									<h3>Someone Famous</h3>
+									<span>Creative Designer</span>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="text">
+								<i class="fas fa-quote-left"></i>
+								<div>
+									<p>
+										Lorem Ipsum is simply dummy text of the printing and
+										typesetting industry.Lorem Ipsum is simplyand typesetting
+										industry.Lorem Ipsum is simplyLorem
+									</p>
+								</div>
+								<div class="detail">
+									<div class="imgBx">
+										<img
+											loading="lazy"
+											decoding="async"
+											src="Author_img/2.jpg"
+											alt="Image text reference"
+										/>
+									</div>
+									<h3>Someone Famous</h3>
+									<span>Creative Designer</span>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="text">
+								<i class="fas fa-quote-left"></i>
+								<div>
+									<p>
+										Lorem Ipsum is simply dummy text of the printing and
+										typesetting industry.Lorem Ipsum is simplyand typesetting
+										industry.Lorem Ipsum is simplyLorem Ipsum is
+									</p>
+								</div>
+								<div class="detail">
+									<div class="imgBx">
+										<img
+											loading="lazy"
+											decoding="async"
+											src="Author_img/4.jpg"
+											alt="Image text reference"
+										/>
+									</div>
+									<h3>Someone Famous</h3>
+									<span>Creative Designer</span>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="text">
+								<i class="fas fa-quote-left"></i>
+								<div>
+									<p>
+										Lorem Ipsum is simply dummy text of the printing and
+										typesetting industry.Lorem Ipsum is simplyand typesetting
+										industry.Lorem Ipsum is simplyLorem
+									</p>
+								</div>
+								<div class="detail">
+									<div class="imgBx">
+										<img
+											loading="lazy"
+											decoding="async"
+											src="Author_img/3.jpg"
+											alt="Image text reference"
+										/>
+									</div>
+									<h3>Someone Famous</h3>
+									<span>Creative Designer</span>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="text">
+								<i class="fas fa-quote-left"></i>
+								<div>
+									<p>
+										Lorem Ipsum is simply dummy text of the printing and
+										typesetting industry.Lorem Ipsum is simplyand typesetting
+										industry.Lorem Ipsum is simplyLorem
+									</p>
+								</div>
+								<div class="detail">
+									<div class="imgBx">
+										<img
+											loading="lazy"
+											decoding="async"
+											src="Author_img/2.jpg"
+											alt="Image text reference"
+										/>
+									</div>
+									<h3>Someone Famous</h3>
+									<span>Creative Designer</span>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- If we need pagination -->
+					<div class="swiper-pagination"></div>
+					<!-- If we need navigation buttons -->
+					<div class="swiper-button-prev swiper-button-blue"></div>
+					<div class="swiper-button-next swiper-button-blue"></div>
+				</div>
+			</div>
+		</div>
+		<!--Footer Section-->
+		<footer>
+			<div class="footer">
+				<a href="https://facebook.com"><i class="fa fa-facebook-f"></i></a>
+				<a href="https://twitter.com"><i class="fab fa-twitter "></i></a>
+				<a href="https://google.com"><i class="fab fa-google-plus-g"></i></a>
+				<a href="https://gmail.com"><i class="fa fa-envelope"></i></a>
+				<a href="https://contact.html"><i class="fa fa-phone"></i></a>
+				<p>
+					© Wiguiblog 2021. All Rights Reserved || Designed By:
+					<a href="https://themeforest.net/desorgui">Wigui</a>
+				</p>
+			</div>
+		</footer>
+		<!--End Footer Section-->
+		<!-- :: Scripts -->
+		<script src="./assets/js/lib/jquery-3.3.1.min.js"></script>
+		<script src="./assets/js/lib/bootstrap.min.js"></script>
+		<script src="./assets/js/lib/typed.min.js"></script>
+		<script src="./assets/js/lib/fontAwesome.js"></script>
+		<script src="./assets/js/lib/typed.js"></script>
+		<script src="./assets/js/lib/swiper.min.js"></script>
+		<script src="./assets/js/theme/theme.js"></script>
+	</body>
+</html>
